@@ -11,6 +11,9 @@ em:hover{
 
 footer{
 	width: 100%;
+	position: fixed;
+	bottom: 0;
+	right: 30px;
 }
 
 h1{
