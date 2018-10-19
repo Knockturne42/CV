@@ -16,6 +16,13 @@ footer{
 	right: 30px;
 }
 
+form {
+	display: flex;
+	flex-wrap: wrap;
+	width: 50%;
+	margin: auto;
+}
+
 h1{
 	text-align: center;
 	font-size: 48px;
@@ -47,6 +54,20 @@ img{
 	height: 200px;
 	width: 200px;
 	box-shadow: 2px 2px black;
+}
+
+input {
+	margin-right: 5%;
+	margin-bottom: 5%;
+}
+
+input[type=submit] {
+	margin-top: 10%;
+}
+
+label {
+	margin-right: 5%;
+	margin-bottom: 5%;
 }
 
 ol{
@@ -90,6 +111,10 @@ table, tr, td{
 ul{
 	text-align: right;
 	list-style-type: square;
+}
+
+#Contact {
+	height: 500px;
 }
 
 #job{
